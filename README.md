@@ -18,7 +18,10 @@ This is a binary classification problem:
 
 ## Dataset
 
-- **Source:** Quora Question Pairs Dataset  
+- **Source:** Quora Question Pairs Dataset
+- A NLP project to find weather given 2 questions are same are not semantically speaking.
+
+Dataset Link - https://www.kaggle.com/c/quora-question-pairs
 - **Input Columns:**
   - `question1`
   - `question2`
@@ -120,16 +123,6 @@ Covers:
 
 ---
 
-## Repository Structure
-
-```
-├── Quora Question Pairs(Using ML).ipynb
-├── XGBoost_Optimised.ipynb
-├── README.md
-```
-
----
-
 ## Results
 
 - Feature engineering significantly boosts performance
@@ -137,29 +130,6 @@ Covers:
 - Fuzzy and distance-based features capture semantic similarity effectively
 
 *(Exact metrics may vary based on configuration.)*
-
----
-
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/quora-question-pairs-ml.git
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-
-4. Run notebooks in sequence:
-   - `Quora Question Pairs(Using ML).ipynb`
-   - `XGBoost_Optimised.ipynb`
 
 ---
 
